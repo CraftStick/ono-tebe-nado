@@ -66,6 +66,7 @@
 .header__address {
   justify-self: end;
   max-width: 240px;
+  min-height: 98px;
   font-style: normal;
   font-size: 18px;
   line-height: 1.35;
@@ -128,6 +129,8 @@
 
 .cover__description-text {
   word-spacing: 18px;
+  line-height: 28px;
+  min-height: 28px;
 }
 
 .bet-button {
