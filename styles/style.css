@@ -36,6 +36,7 @@
 .header__links-list-item::before {
   content: "•";
   margin-right: 8px;
+  display: inline-block;
 }
 
 .header__links-list-item_no-bullit::before {
