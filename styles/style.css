@@ -250,12 +250,15 @@
 
 .lots__look-more-link {
   font-size: 20px;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  padding-left: 40px;
+  text-decoration: none;
   display: inline-block;
   min-width: 192px;
-  min-height: 23px;
+  min-height: 25px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 0 0 0 40px;
+  line-height: 25px;
 }
 
 .about {
