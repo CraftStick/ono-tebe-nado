@@ -160,13 +160,14 @@
 
 .lots__card-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 334px);
   gap: 25px;
   list-style: none;
   margin-bottom: 30px;
 }
 
 .lots__card-list-item {
+  width: 334px;
   min-height: 563px;
 }
 
@@ -227,6 +228,9 @@
   text-decoration: underline;
   text-underline-offset: 4px;
   padding-left: 40px;
+  display: inline-block;
+  min-width: 192px;
+  min-height: 23px;
 }
 
 .about {
@@ -277,6 +281,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
+  min-height: 180px;
 }
 
 .footer .address {
