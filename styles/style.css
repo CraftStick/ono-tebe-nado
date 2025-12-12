@@ -257,9 +257,10 @@
   border: 1px solid #000000;
   background-color: #FFFFFF;
   color: #000000;
-  padding: 0 0 0 40px;
+  padding-left: 40px;
   line-height: 25px;
   box-sizing: border-box;
+  vertical-align: middle;
 }
 
 .about {
