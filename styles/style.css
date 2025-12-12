@@ -156,6 +156,7 @@
   text-transform: uppercase;
   margin-bottom: 27px;
   padding-left: 40px;
+  line-height: 47px;
 }
 
 .lots__card-list {
@@ -168,7 +169,7 @@
 
 .lots__card-list-item {
   width: 334px;
-  min-height: 563px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -266,6 +267,7 @@
   text-transform: uppercase;
   margin-top: 100px;
   margin-bottom: 100px;
+  line-height: 47px;
 }
 
 .about__text {
