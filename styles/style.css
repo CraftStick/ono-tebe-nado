@@ -291,6 +291,8 @@
   font-size: 18px;
   line-height: 1.35;
   text-underline-offset: 4px;
+  width: 265px;
+  min-height: 98px;
 }
 
 .footer__menu-list {
@@ -300,6 +302,8 @@
   list-style: none;
   font-size: 18px;
   text-underline-offset: 4px;
+  width: 164px;
+  min-height: 64px;
 }
 
 .footer__menu-list-item {
