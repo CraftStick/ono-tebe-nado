@@ -59,7 +59,7 @@
 }
 
 .header__logo-image {
-  width: 148px;
+  width: 129px;
   height: 105px;
 }
 
@@ -139,6 +139,11 @@
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   cursor: pointer;
+  min-width: 256px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lots__heading {
