@@ -26,15 +26,27 @@
 .header__links-list {
   display: flex;
   gap: 32px;
-  list-style: circle;
+  list-style: none;
 }
 
 .header__links-list-item {
-  list-style-type: inherit;
+  list-style: none;
+  position: relative;
+  padding-left: 16px;
+}
+
+.header__links-list-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+}
+
+.header__links-list-item_no-bullit::before {
+  content: none;
 }
 
 .header__link {
