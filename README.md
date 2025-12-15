@@ -4,5 +4,5 @@
 
 ## Ссылка на репозиторий
 
-https://github.com/CraftStick/ono-tebe-nado.git
+https://github.com/CraftStick/ono-tebe-nado-ad
 
