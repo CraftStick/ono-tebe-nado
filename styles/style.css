@@ -189,7 +189,6 @@
 .card__title {
     text-transform: uppercase;
     text-decoration: underline;
-    text-underline-offset: 1px;
     text-underline-offset: 0.2em;
     font-size: 18px;
 }
